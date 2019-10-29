@@ -9,6 +9,7 @@ public class TestUser {
 		IUser users=new IUserImpl();
 		User user=new User(0,"Àî°×","123");
 		users.save(user);
+		System.out.println(user);
 	}
 
 }
